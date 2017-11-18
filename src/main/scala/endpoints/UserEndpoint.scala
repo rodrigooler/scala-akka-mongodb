@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.stream.Materializer
 import de.heikoseeberger.akkahttpjackson.JacksonSupport._
 import models.{FindByIdRequest, UserResource}
-import repositorys.UserRepository
+import repositories.UserRepository
 
 import scala.concurrent.{ExecutionContext, Future}
 

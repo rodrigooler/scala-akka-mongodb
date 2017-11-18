@@ -1,4 +1,4 @@
-package repositorys
+package repositories
 
 import models.User
 import org.mongodb.scala._
