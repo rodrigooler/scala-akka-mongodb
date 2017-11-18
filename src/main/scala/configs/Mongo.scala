@@ -1,3 +1,5 @@
+package configs
+
 import com.typesafe.config.ConfigFactory
 import org.bson.codecs.configuration.CodecRegistries._
 import org.mongodb.scala._

@@ -1,3 +1,6 @@
+package repositorys
+
+import models.User
 import org.mongodb.scala._
 import org.mongodb.scala.bson.ObjectId
 

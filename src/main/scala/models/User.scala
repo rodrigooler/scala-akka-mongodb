@@ -1,3 +1,5 @@
+package models
+
 import org.bson.types.ObjectId
 import org.mongodb.scala.bson.ObjectId
 

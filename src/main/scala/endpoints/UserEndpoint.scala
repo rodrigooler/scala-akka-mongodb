@@ -1,13 +1,15 @@
+package endpoints
+
 import akka.http.scaladsl.marshalling.Marshal
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.model.headers.Location
 import akka.http.scaladsl.server.Directives._
 import akka.stream.Materializer
-
-import scala.concurrent.Future
 import de.heikoseeberger.akkahttpjackson.JacksonSupport._
+import models.{FindByIdRequest, UserResource}
+import repositorys.UserRepository
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, Future}
 
 trait UserEndpoint {
   implicit val mat: Materializer
