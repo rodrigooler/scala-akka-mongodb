@@ -3,6 +3,8 @@ package configs
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
+import endpoints.UserEndpoint
+import repositorys.UserRepository
 
 import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Success}
